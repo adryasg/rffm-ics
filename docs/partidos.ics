@@ -24,54 +24,58 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:rffm-3c01f3f255c726d3@agenda
 DTSTAMP:20261010T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - ESC.FUT.AT. Casarrubuelos 
- 'B'
-DTSTART;TZID=Europe/Madrid:20261010T160000
-DTEND;TZID=Europe/Madrid:20261010T172000
+SUMMARY:Infantil B (16:00): ESC. MPAL. FUT. Humanes 'B' - ESC.FUT.AT. Casar
+ rubuelos 'B'
+DTSTART;TZID=Europe/Madrid:20261010T150000
+DTEND;TZID=Europe/Madrid:20261010T171000
 LOCATION:HUMANES - EMILIO ZAZO 2
 DESCRIPTION:Jornada 3 (10-10-2026) · PRIMERA INFANTIL Grupo 15 · Fuente: 
- RFFM
+ RFFM · Partido a las 16:00\, llegar a las 15:00 (60 min antes) · Duraci
+ ón 70 min
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:rffm-b2bef7eae8e804b9@agenda
 DTSTAMP:20261011T000000Z
-SUMMARY:Juvenil A: C.D. Humanes 'A' - C.D. Fortuna 'A'
-DTSTART;TZID=Europe/Madrid:20261011T150000
-DTEND;TZID=Europe/Madrid:20261011T164000
+SUMMARY:Juvenil A (15:00): C.D. Humanes 'A' - C.D. Fortuna 'A'
+DTSTART;TZID=Europe/Madrid:20261011T134500
+DTEND;TZID=Europe/Madrid:20261011T163000
 LOCATION:HUMANES - EMILIO ZAZO 2
 DESCRIPTION:Jornada 5 (11-10-2026) · PRIMERA DIVISIÓN AUTONÓMICA JUVENIL
-  Grupo 4 · Fuente: RFFM
+  Grupo 4 · Fuente: RFFM · Partido a las 15:00\, llegar a las 13:45 (75 m
+ in antes) · Duración 90 min
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:rffm-95ebe252e197164a@agenda
 DTSTAMP:20261017T000000Z
-SUMMARY:Humanes B: Club POLID. Parla Escuela - Fair Play 'D' - ESC. MPAL. F
- UT. Humanes 'B'
-DTSTART;TZID=Europe/Madrid:20261017T150000
-DTEND;TZID=Europe/Madrid:20261017T162000
+SUMMARY:Infantil B (15:00): Club POLID. Parla Escuela - Fair Play 'D' - ESC
+ . MPAL. FUT. Humanes 'B'
+DTSTART;TZID=Europe/Madrid:20261017T140000
+DTEND;TZID=Europe/Madrid:20261017T161000
 LOCATION:PARLA - LAS AMÉRICAS
 DESCRIPTION:Jornada 4 (17-10-2026) · PRIMERA INFANTIL Grupo 15 · Fuente: 
- RFFM
+ RFFM · Partido a las 15:00\, llegar a las 14:00 (60 min antes) · Duraci
+ ón 70 min
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:rffm-0d467967b452c0bd@agenda
 DTSTAMP:20261018T000000Z
-SUMMARY:Juvenil A: Getafe C.F. S.A.D. 'C' - C.D. Humanes 'A'
-DTSTART;TZID=Europe/Madrid:20261018T160000
-DTEND;TZID=Europe/Madrid:20261018T174000
+SUMMARY:Juvenil A (16:00): Getafe C.F. S.A.D. 'C' - C.D. Humanes 'A'
+DTSTART;TZID=Europe/Madrid:20261018T144500
+DTEND;TZID=Europe/Madrid:20261018T173000
 LOCATION:GETAFE - CIUDAD DPTVA 1
 DESCRIPTION:Jornada 6 (18-10-2026) · PRIMERA DIVISIÓN AUTONÓMICA JUVENIL
-  Grupo 4 · Fuente: RFFM
+  Grupo 4 · Fuente: RFFM · Partido a las 16:00\, llegar a las 14:45 (75 m
+ in antes) · Duración 90 min
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:rffm-c43d59abb57e6006@agenda
 DTSTAMP:20261024T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - A.D. Illescas 'D' (hora po
- r confirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - A.D. Illescas 'D' (hora p
+ or confirmar)
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 LOCATION:HUMANES - EMILIO ZAZO 2
@@ -93,8 +97,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-fcfdcfdb92ab91d0@agenda
 DTSTAMP:20261031T000000Z
-SUMMARY:Humanes B: A.D. Parla 'B' - ESC. MPAL. FUT. Humanes 'B' (hora por c
- onfirmar)
+SUMMARY:Infantil B: A.D. Parla 'B' - ESC. MPAL. FUT. Humanes 'B' (hora por 
+ confirmar)
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 LOCATION:PARLA - ESTADIO DE LOS PRADOS
@@ -129,8 +133,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-31be5851d6c93519@agenda
 DTSTAMP:20261114T000000Z
-SUMMARY:Humanes B: E.F.M.O. Boadilla 'D' - ESC. MPAL. FUT. Humanes 'B' (hor
- a por confirmar)
+SUMMARY:Infantil B: E.F.M.O. Boadilla 'D' - ESC. MPAL. FUT. Humanes 'B' (ho
+ ra por confirmar)
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 LOCATION:BOADILLA - PVO. MUNICIPAL ANGEL NIETO 1
@@ -153,8 +157,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-a2d68bd651f15f15@agenda
 DTSTAMP:20261121T000000Z
-SUMMARY:Humanes B: ESC. De FUT. Valdemoro 'C' - ESC. MPAL. FUT. Humanes 'B'
-  (hora por confirmar)
+SUMMARY:Infantil B: ESC. De FUT. Valdemoro 'C' - ESC. MPAL. FUT. Humanes 'B
+ ' (hora por confirmar)
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 LOCATION:VALDEMORO
@@ -177,8 +181,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-66c36c4692b51b8e@agenda
 DTSTAMP:20261128T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - Cde Ed Seseña 'A' (hora p
- or confirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - Cde Ed Seseña 'A' (hora 
+ por confirmar)
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 LOCATION:HUMANES - EMILIO ZAZO 2
@@ -201,8 +205,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-b09393e93983f63b@agenda
 DTSTAMP:20261212T000000Z
-SUMMARY:Humanes B: C.D. Arancetano 'C' - ESC. MPAL. FUT. Humanes 'B' (hora 
- por confirmar)
+SUMMARY:Infantil B: C.D. Arancetano 'C' - ESC. MPAL. FUT. Humanes 'B' (hora
+  por confirmar)
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 LOCATION:ARANJUEZ - ENRIQUE MORENO LALO
@@ -225,8 +229,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-a81c598e3ead1bbb@agenda
 DTSTAMP:20261219T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - ESC.MUN. Torrejon De La Ca
- lzada 'A' (hora por confirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - ESC.MUN. Torrejon De La C
+ alzada 'A' (hora por confirmar)
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 LOCATION:HUMANES - EMILIO ZAZO 2
@@ -249,8 +253,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-b509777ca5966171@agenda
 DTSTAMP:20270116T000000Z
-SUMMARY:Humanes B: C.D.A. Navalcarnero 'F' - ESC. MPAL. FUT. Humanes 'B' (h
- ora por confirmar)
+SUMMARY:Infantil B: C.D.A. Navalcarnero 'F' - ESC. MPAL. FUT. Humanes 'B' (
+ hora por confirmar)
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 LOCATION:NAVALCARNERO - ESTADIO MARIANO GONZALEZ
@@ -273,8 +277,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-7e8513cb5d6cb768@agenda
 DTSTAMP:20270123T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - Union 2000 'A' (hora por c
- onfirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - Union 2000 'A' (hora por 
+ confirmar)
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 LOCATION:HUMANES - EMILIO ZAZO 2
@@ -297,8 +301,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-8a78258bed2a3e2b@agenda
 DTSTAMP:20270130T000000Z
-SUMMARY:Humanes B: C.D. Sp&al Serranillos 'A' - ESC. MPAL. FUT. Humanes 'B'
-  (hora por confirmar)
+SUMMARY:Infantil B: C.D. Sp&al Serranillos 'A' - ESC. MPAL. FUT. Humanes 'B
+ ' (hora por confirmar)
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 LOCATION:SERRANILLOS DEL VALLE - PVO. ADOLFO SUÁREZ
@@ -321,8 +325,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-743fd7eea07bc892@agenda
 DTSTAMP:20270206T000000Z
-SUMMARY:Humanes B: Cde Ciudad De Cubas De La Sagra 'A' - ESC. MPAL. FUT. Hu
- manes 'B' (hora por confirmar)
+SUMMARY:Infantil B: Cde Ciudad De Cubas De La Sagra 'A' - ESC. MPAL. FUT. H
+ umanes 'B' (hora por confirmar)
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 LOCATION:CUBAS DE LA SAGRA - FEDERICO ZARZA NÚÑEZ
@@ -345,8 +349,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-edf3fba97ff47832@agenda
 DTSTAMP:20270213T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - C.D. Santa Barbara Getafe 
- 'D' (hora por confirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - C.D. Santa Barbara Getafe
+  'D' (hora por confirmar)
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 LOCATION:HUMANES - EMILIO ZAZO 2
@@ -369,8 +373,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-b4204f82470e6fec@agenda
 DTSTAMP:20270220T000000Z
-SUMMARY:Humanes B: ESC.FUT.AT. Casarrubuelos 'B' - ESC. MPAL. FUT. Humanes 
- 'B' (hora por confirmar)
+SUMMARY:Infantil B: ESC.FUT.AT. Casarrubuelos 'B' - ESC. MPAL. FUT. Humanes
+  'B' (hora por confirmar)
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 LOCATION:CASARRUBUELOS
@@ -393,8 +397,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-821eb76f5c4f8b62@agenda
 DTSTAMP:20270227T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - Club POLID. Parla Escuela 
- - Fair Play 'D' (hora por confirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - Club POLID. Parla Escuela
+  - Fair Play 'D' (hora por confirmar)
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 LOCATION:HUMANES - EMILIO ZAZO 2
@@ -417,8 +421,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-3f7fce8c34ef4d6c@agenda
 DTSTAMP:20270306T000000Z
-SUMMARY:Humanes B: A.D. Illescas 'D' - ESC. MPAL. FUT. Humanes 'B' (hora po
- r confirmar)
+SUMMARY:Infantil B: A.D. Illescas 'D' - ESC. MPAL. FUT. Humanes 'B' (hora p
+ or confirmar)
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 LOCATION:CUBAS DE LA SAGRA - FEDERICO ZARZA NÚÑEZ
@@ -440,8 +444,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-68e5cbe9a637779d@agenda
 DTSTAMP:20270313T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - A.D. Parla 'B' (hora por c
- onfirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - A.D. Parla 'B' (hora por 
+ confirmar)
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 LOCATION:HUMANES - EMILIO ZAZO 2
@@ -475,8 +479,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-7fa7c1a8a7a84324@agenda
 DTSTAMP:20270403T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - E.F.M.O. Boadilla 'D' (hor
- a por confirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - E.F.M.O. Boadilla 'D' (ho
+ ra por confirmar)
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 LOCATION:HUMANES - EMILIO ZAZO 2
@@ -499,8 +503,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-9a61fa6c209b38ed@agenda
 DTSTAMP:20270410T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - ESC. De FUT. Valdemoro 'C'
-  (hora por confirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - ESC. De FUT. Valdemoro 'C
+ ' (hora por confirmar)
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 LOCATION:HUMANES - EMILIO ZAZO 2
@@ -523,8 +527,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-01c6a2d4ce205b6e@agenda
 DTSTAMP:20270417T000000Z
-SUMMARY:Humanes B: Cde Ed Seseña 'A' - ESC. MPAL. FUT. Humanes 'B' (hora p
- or confirmar)
+SUMMARY:Infantil B: Cde Ed Seseña 'A' - ESC. MPAL. FUT. Humanes 'B' (hora 
+ por confirmar)
 DTSTART;VALUE=DATE:20270417
 DTEND;VALUE=DATE:20270418
 LOCATION:SERRANILLOS DEL VALLE - PVO. ADOLFO SUÁREZ
@@ -547,8 +551,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-e5c92c4e0e3c1714@agenda
 DTSTAMP:20270424T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - C.D. Arancetano 'C' (hora 
- por confirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - C.D. Arancetano 'C' (hora
+  por confirmar)
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 LOCATION:HUMANES - EMILIO ZAZO 2
@@ -571,8 +575,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-8908ccbff9aa225e@agenda
 DTSTAMP:20270501T000000Z
-SUMMARY:Humanes B: ESC.MUN. Torrejon De La Calzada 'A' - ESC. MPAL. FUT. Hu
- manes 'B' (hora por confirmar)
+SUMMARY:Infantil B: ESC.MUN. Torrejon De La Calzada 'A' - ESC. MPAL. FUT. H
+ umanes 'B' (hora por confirmar)
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 LOCATION:TORREJÓN DE LA CALZADA
@@ -595,8 +599,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-501949dcdbd1eb0f@agenda
 DTSTAMP:20270508T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - C.D.A. Navalcarnero 'F' (h
- ora por confirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - C.D.A. Navalcarnero 'F' (
+ hora por confirmar)
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 LOCATION:HUMANES - EMILIO ZAZO 2
@@ -619,8 +623,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-45b5e93f37413df2@agenda
 DTSTAMP:20270515T000000Z
-SUMMARY:Humanes B: Union 2000 'A' - ESC. MPAL. FUT. Humanes 'B' (hora por c
- onfirmar)
+SUMMARY:Infantil B: Union 2000 'A' - ESC. MPAL. FUT. Humanes 'B' (hora por 
+ confirmar)
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 LOCATION:PARLA - ALFREDO DI STEFANO
@@ -643,8 +647,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-30b5c9c4e7e70f36@agenda
 DTSTAMP:20270522T000000Z
-SUMMARY:Humanes B: ESC. MPAL. FUT. Humanes 'B' - C.D. Sp&al Serranillos 'A'
-  (hora por confirmar)
+SUMMARY:Infantil B: ESC. MPAL. FUT. Humanes 'B' - C.D. Sp&al Serranillos 'A
+ ' (hora por confirmar)
 DTSTART;VALUE=DATE:20270522
 DTEND;VALUE=DATE:20270523
 LOCATION:HUMANES - EMILIO ZAZO 2

@@ -49,7 +49,9 @@ ROMANOS = {"I","II","III","IV","V","VI","VII","VIII","IX","X"}
 def bonito(s):
     out = []
     for w in str(s).split():
-        if "." in w or len(w) == 1 or w.upper() in ROMANOS:
+        if re.fullmatch(r"['\"]\w['\"]", w):
+            out.append(w.upper())
+        elif "." in w or len(w) == 1 or w.upper() in ROMANOS:
             out.append(w.upper() if len(w) <= 4 else w)
         else:
             out.append(w.capitalize())
@@ -74,8 +76,8 @@ def construir_eventos(cal, equipo_cfg, cfg, hoy):
         if d < hoy:
             continue
         hora = (p.get("hora") or "").strip()
-        campo = re.sub(r"\s*\(\w{1,3}\)\s*$", "", str(p.get("campo") or "")).strip()
-        titulo = f'{equipo_cfg["nombre"]}: {bonito(p["equipo_local"])} - {bonito(p["equipo_visitante"])}'
+        campo = re.sub(r"\s*\(\s*[A-Za-z]{1,3}\s*\)", "", str(p.get("campo") or "")).replace("(", "").replace(")", "").strip()
+        titulo = f'{equipo_cfg["nombre"]}: {bonito(p["equipo_local"].strip())} - {bonito(p["equipo_visitante"].strip())}'
         ev = {"uid": "rffm-" + hashlib.sha1("|".join(map(str, [comp, grupo, r.get("jornada"), p["equipo_local"], p["equipo_visitante"]])).encode()).hexdigest()[:16] + "@agenda",
               "fecha": d, "lugar": campo,
               "notas": f'Jornada {r.get("jornada")} · {comp} {grupo} · Fuente: RFFM'}

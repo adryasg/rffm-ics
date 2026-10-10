@@ -1,0 +1,27 @@
+{
+  "nombre_calendario": "Partidos RFFM",
+  "descanso": 10,
+  "duraciones": {
+    "prebenjamin": 20,
+    "benjamin": 25,
+    "alevin": 25,
+    "infantil": 35,
+    "cadete": 40,
+    "juvenil": 45,
+    "aficionado": 45,
+    "senior": 45,
+    "defecto": 45
+  },
+  "equipos": [
+    {
+      "nombre": "Juvenil A",
+      "equipo": "C.D. HUMANES 'A'",
+      "url": "https://www.rffm.es/competicion/calendario?temporada=22&tipojuego=1&competicion=26737715&grupo=26834927"
+    },
+    {
+      "nombre": "Humanes B",
+      "equipo": "ESC. MPAL. FUT. HUMANES 'B'",
+      "url": "https://www.rffm.es/competicion/calendario?temporada=22&tipojuego=1&competicion=26737828&grupo=26737843"
+    }
+  ]
+}

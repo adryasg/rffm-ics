@@ -1,0 +1,23 @@
+name: Actualizar partidos RFFM
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python generar_ics.py
+      - name: Guardar si hay cambios
+        run: |
+          git config user.name "rffm-bot"
+          git config user.email "rffm-bot@users.noreply.github.com"
+          git add docs/partidos.ics
+          git diff --cached --quiet || (git commit -m "Actualizar partidos" && git push)

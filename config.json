@@ -16,12 +16,16 @@
     {
       "nombre": "Juvenil A",
       "equipo": "C.D. HUMANES 'A'",
-      "url": "https://www.rffm.es/competicion/calendario?temporada=22&tipojuego=1&competicion=26737715&grupo=26834927"
+      "url": "https://www.rffm.es/competicion/calendario?temporada=22&tipojuego=1&competicion=26737715&grupo=26834927",
+      "duracion": 90,
+      "llegar_antes": 75
     },
     {
-      "nombre": "Humanes B",
+      "nombre": "Infantil B",
       "equipo": "ESC. MPAL. FUT. HUMANES 'B'",
-      "url": "https://www.rffm.es/competicion/calendario?temporada=22&tipojuego=1&competicion=26737828&grupo=26737843"
+      "url": "https://www.rffm.es/competicion/calendario?temporada=22&tipojuego=1&competicion=26737828&grupo=26737843",
+      "duracion": 70,
+      "llegar_antes": 60
     }
   ]
 }

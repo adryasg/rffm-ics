@@ -66,7 +66,8 @@ def minutos_parte(competicion, cfg):
 
 def construir_eventos(cal, equipo_cfg, cfg, hoy):
     comp = txt(cal.get("competicion")); grupo = txt(cal.get("grupo"))
-    dur = 2 * minutos_parte(comp, cfg) + cfg["descanso"]
+    dur = int(equipo_cfg.get("duracion") or 2 * minutos_parte(comp, cfg) + cfg["descanso"])
+    antes = int(equipo_cfg.get("llegar_antes") or 0)
     evs = []
     for r, p in partidos_del_equipo(cal, equipo_cfg["equipo"]):
         try:
@@ -83,8 +84,14 @@ def construir_eventos(cal, equipo_cfg, cfg, hoy):
               "notas": f'Jornada {r.get("jornada")} · {comp} {grupo} · Fuente: RFFM'}
         try:
             h = datetime.strptime(hora, "%H:%M")
-            ev["ini"] = datetime.combine(d, h.time()); ev["fin"] = ev["ini"] + timedelta(minutes=dur)
-            ev["titulo"] = titulo; ev["estado"] = "CONFIRMED"
+            kick = datetime.combine(d, h.time())
+            ev["ini"] = kick - timedelta(minutes=antes); ev["fin"] = kick + timedelta(minutes=dur)
+            ev["titulo"] = titulo.replace(equipo_cfg["nombre"] + ":", f'{equipo_cfg["nombre"]} ({hora}):', 1)
+            ev["estado"] = "CONFIRMED"
+            if antes:
+                ev["notas"] += f' · Partido a las {hora}, llegar a las {ev["ini"].strftime("%H:%M")} ({antes} min antes) · Duración {dur} min'
+            else:
+                ev["notas"] += f' · Duración {dur} min'
         except ValueError:
             ev["ini"] = None; ev["titulo"] = titulo + " (hora por confirmar)"; ev["estado"] = "TENTATIVE"
         evs.append(ev)

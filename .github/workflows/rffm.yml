@@ -15,9 +15,10 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python generar_ics.py
+      - run: python generar_ligas.py
       - name: Guardar si hay cambios
         run: |
           git config user.name "rffm-bot"
           git config user.email "rffm-bot@users.noreply.github.com"
-          git add docs/partidos.ics
+          git add docs/partidos.ics docs/ligas.json
           git diff --cached --quiet || (git commit -m "Actualizar partidos" && git push)

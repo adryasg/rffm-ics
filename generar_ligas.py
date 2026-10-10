@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Genera docs/ligas.json: clasificación (calculada con los resultados) y partidos de cada jornada."""
 import argparse, json, re, sys
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from generar_ics import norm, extraer_calendario, descargar, txt, bonito
 
 def iso(f):
@@ -47,14 +47,20 @@ def construir_liga(cal, t):
         fj = ""
         mm = re.search(r"\((\d{2}-\d{2}-\d{4})\)", str(r.get("jornada", "")))
         if mm: fj = iso(mm.group(1))
-        ini = min(fechas) if fechas else fj
-        fin = max(fechas) if fechas else fj
-        jornadas.append({"n": n, "ini": ini, "fin": fin, "partidos": partidos})
+        if not fj and fechas:
+            fj = sorted(fechas)[len(fechas) // 2]
+        # los aplazados (fechas lejanas) no deben mover la jornada
+        cerca = [f for f in fechas if fj and abs((date.fromisoformat(f) - date.fromisoformat(fj)).days) <= 6] or fechas
+        ini = min(cerca) if cerca else fj
+        fin = max(cerca) if cerca else fj
+        ref = fj or fin
+        jornadas.append({"n": n, "ref": ref, "ini": ini, "fin": fin, "partidos": partidos})
     clas = sorted(tabla.values(), key=lambda x: (-x["pts"], -(x["gf"] - x["gc"]), -x["gf"], norm(x["equipo"])))
     for i, x in enumerate(clas, 1):
         x["pos"] = i; x["dg"] = x["gf"] - x["gc"]
     hoy = date.today().isoformat()
-    actual = next((j["n"] for j in jornadas if j["fin"] and j["fin"] >= hoy), jornadas[-1]["n"] if jornadas else 0)
+    lim = (date.today() - timedelta(days=2)).isoformat()
+    actual = next((j["n"] for j in jornadas if (j["ref"] or j["fin"]) and max(j["ref"], j["fin"]) >= lim), jornadas[-1]["n"] if jornadas else 0)
     return {"id": t["nombre"], "nombre": t["nombre"], "competicion": txt(cal.get("competicion")), "grupo": txt(cal.get("grupo")),
             "equipo": t["equipo"], "actual": actual, "jornadas": jornadas, "clasificacion": clas}
 

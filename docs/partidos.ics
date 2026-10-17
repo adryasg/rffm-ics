@@ -24,13 +24,13 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:rffm-95ebe252e197164a@agenda
 DTSTAMP:20261017T000000Z
-SUMMARY:Infantil B (15:00): Club POLID. Parla Escuela - Fair Play 'D' - ESC
+SUMMARY:Infantil B (15:10): Club POLID. Parla Escuela - Fair Play 'D' - ESC
  . MPAL. FUT. Humanes 'B'
-DTSTART;TZID=Europe/Madrid:20261017T140000
-DTEND;TZID=Europe/Madrid:20261017T161000
+DTSTART;TZID=Europe/Madrid:20261017T141000
+DTEND;TZID=Europe/Madrid:20261017T162000
 LOCATION:PARLA - LAS AMÉRICAS
 DESCRIPTION:Jornada 4 (17-10-2026) · PRIMERA INFANTIL Grupo 15 · Fuente: 
- RFFM · Partido a las 15:00\, llegar a las 14:00 (60 min antes) · Duraci
+ RFFM · Partido a las 15:10\, llegar a las 14:10 (60 min antes) · Duraci
  ón 70 min
 STATUS:CONFIRMED
 END:VEVENT

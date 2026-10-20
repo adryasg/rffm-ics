@@ -48,12 +48,12 @@ END:VEVENT
 BEGIN:VEVENT
 UID:rffm-fcfdcfdb92ab91d0@agenda
 DTSTAMP:20261031T000000Z
-SUMMARY:Infantil B (12:00): A.D. Parla 'B' - ESC. MPAL. FUT. Humanes 'B'
-DTSTART;TZID=Europe/Madrid:20261031T110000
-DTEND;TZID=Europe/Madrid:20261031T131000
+SUMMARY:Infantil B (09:00): A.D. Parla 'B' - ESC. MPAL. FUT. Humanes 'B'
+DTSTART;TZID=Europe/Madrid:20261031T080000
+DTEND;TZID=Europe/Madrid:20261031T101000
 LOCATION:PARLA - ESTADIO DE LOS PRADOS
 DESCRIPTION:Jornada 6 (31-10-2026) · PRIMERA INFANTIL Grupo 15 · Fuente: 
- RFFM · Partido a las 12:00\, llegar a las 11:00 (60 min antes) · Duraci
+ RFFM · Partido a las 09:00\, llegar a las 08:00 (60 min antes) · Duraci
  ón 70 min
 STATUS:CONFIRMED
 END:VEVENT
